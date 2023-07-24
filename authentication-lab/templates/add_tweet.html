@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Home</title>
 </head>
 <body>
-    Great Job!
+<form method="POST" action="/add_tweet">
+<div>
+<div>
+Title
+</div>
+<input type="text" name="title">
+</div>
+<div>
+Text
+</div>
+<input type="text" name="text">
+</div>
+<input type="submit">
+    </form>
+<a href="signout">signout</a>
+<a href="/all_tweets">view tweets</a>
 </body>
 </html>
